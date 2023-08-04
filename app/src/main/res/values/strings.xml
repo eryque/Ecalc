@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ecalc</string>
+    <string name="Calc"> My calculator app</string>
+    <style name="Theme.MyOwnTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:statusBarColor">@color/Status_bar_color</item>
+        <!-- App bar color -->
+        <item name="colorPrimary">@color/app_bar_color</item>item>
+        <!-- Status bar color -->
+        <item name="colorPrimaryDark">@color/Status_bar_color</item>
+
+    </style>
+    <string name="enter_first_number">Enter first Number</string>
+    <string name="enter_second_number">Enter second Number</string>
+    <string name="add">+</string>
+    <string name="divide">/</string>
+    <string name="subtract">-</string>
+    <string name="multiply">*</string>
+    <string name="calculate">Calculate</string>
+</resources>
